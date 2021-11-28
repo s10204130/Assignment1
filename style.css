@@ -1,0 +1,275 @@
+*{
+    color: #f3f0ef;
+    margin:0;
+    padding:0;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+header{
+    background-color:#e7e0cf;
+}
+/* header*/
+ul{
+    display:inline;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background:#95AFA7
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:#222b1bea;
+    text-align:center;
+    padding:10px 12px;
+}
+li a:hover{
+    background-color: #dfcdc7;
+}
+li a:active{
+    background-color: #b1cfba;
+}
+
+header.social-media{
+    justify-content: right;
+    transition:transform.2s;
+}
+/*video flex*/
+video{
+    display:flex;
+    width:100%;
+    z-index: 1;
+    position:relative;
+}
+/*about me section*/
+section.aboutme { 
+    text-align: center;
+    background-image: url("Media/dp.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+section.aboutme a.button{
+    padding:10px 30px;
+    margin:4px 2px;
+    cursor: pointer;
+    display:inline-block;
+    color:#222b1bea;
+    background:#dad3d1;
+    text-align:center;
+}
+
+h1{
+    font-size: 80px;
+    color: #dfcdc7;
+}
+h2{
+    font-size:65px;
+}
+h3{
+    font-size: 30px;
+    color:#f6f8ff
+}
+p{
+    display:flex;
+    flex-flow:wrap;
+    font-size: 25px;
+    text-align: center;
+}
+/*education section*/
+section.education{
+    text-align: center;
+    background-image:url("Media/Education.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px;
+}
+dd{
+    font-size:25px;
+}
+/*hobbies section*/
+section.hobbies{
+    text-align:center;
+    padding: 150px;
+    background-image:url("Media/IMG_6397.JPG.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.photos{
+    display:none; 
+}
+.slideshow-container{
+    display:block;
+    max-width:50%;
+    position:relative;
+    margin:auto;
+    box-sizing: border-box;
+}
+.prev,.next{
+    cursor: pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    padding:16px;
+    margin-top:-22px;
+    transition:0.6s ease;
+    border-radius:0 3px 3px 0;
+    user-select: none;
+}
+.prev{
+    left:0;
+    border-radius:0 3px 3px 0;
+}
+.next{
+    right:0;
+    border-radius: 0 3px 3px 0;
+}
+.prev:hover, .next:hover{
+    background-color: #dfcdc7;
+}
+.dot{
+    cursor:pointer;
+    height:15px;
+    width:15px;
+    margin:0 2px;
+    background-color:#dfcdc7;
+    border-radius:50%;
+    display:inline-block;
+    transition:background-color 0.6s ease;
+}
+.active,.dothover{
+    background-color:#dfcdc7
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade{
+    from{opacity:.4}
+    to {opacity:1}
+}
+@keyframes fade{
+    from {opacity:.4}
+    to {opacity:1}
+}
+
+section.hobbies a.button{
+    padding:10px 30px;
+    margin:4px 2px;
+    cursor: pointer;
+    display:inline-block;
+    color:#222b1bea;
+    background:#dad3d1;
+    text-align:center;
+}
+/*footer*/
+footer{
+    background-color: #95AFA7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+section.contact{
+    text-align: center;
+    padding:20px;
+    font-size: 10px;
+    justify-content: center;
+    
+}
+
+
+/*Photography page CSS*/
+.row{
+    display:flex; 
+    flex-wrap: wrap;
+    padding: 4px;
+}
+.column{
+    flex:25%;
+    max-width:25%;
+    padding:4px;
+}
+.column img{
+    vertical-align: middle;
+    width: 100%;
+    margin-top:4px;
+}
+@media (max-width:576px){
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
+}
+@media (max-width:920px){
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
+}
+
+/*form page*/
+section.form{
+    background-color: #dfcdc7;
+    padding:150px; 
+    justify-content:center;
+    text-align: center;
+    color:#222b1bea;
+
+    
+}
+/*achievemets section*/
+section.achievements{
+    text-align:center;
+    padding: 150px;
+    background-image:url("Media/25d5e93d-8753-4d7f-bcbf-001f35b44f52_edited.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+/*cca section*/
+section.cca{
+    text-align:center;
+    padding:150px; 
+    background-image:url("Media/IMG_7065_edited_edited.jpg");
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-attachment: fixed; 
+}
+/*photo page*/
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    padding:0 4px;
+}
+.column{
+    flex:20%;
+    max-width:20%;
+    padding:0 4px;
+}
+.column img{
+    vertical-align: center;
+    width:100%; 
+}
+@media (max-width:576px){
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
+}
+/*@media (max-width:920px){
+    .column{
+        flex:50%;
+        max-width:50%;
+    }
+}
+*/
