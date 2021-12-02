@@ -15,6 +15,7 @@ As a site creator, my main goal is to showcase myself in a way that recruiters w
 *include wireframes* 
 # Features
 
+# Existing Features
 Homepage: 
 
 *Header* 
@@ -56,4 +57,15 @@ Footer:
 *Footer* 
 The footer contains both my school and personal email address for users who wish to contact me directly via email, it also includes links to my LinkedIn and Instagram, similar to the header. Lastly, it also contains a "Back To Top" link which brings you back to the top of the page. 
 
+# Features to implement
 
+# Technologies Used
+In this webste the languages used are:
+html, css and javascript. 
+
+
+
+# Media
+The images, videos used in this website were taken and edited by me. 
+
+# Acknowledgements
