@@ -1,3 +1,4 @@
+/*Homepage*/
 *{
     color: #f3f0ef;
     margin:0;
@@ -170,6 +171,70 @@ section.hobbies a.button{
     color:#222b1bea;
     background:#dad3d1;
     text-align:center;
+}
+
+/*Achievements*/
+section.achievements{
+    text-align:center;
+    padding: 150px;
+    background-image:url("Media/25d5e93d-8753-4d7f-bcbf-001f35b44f52_edited.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/*Skills*/
+section.skills{
+    text-align: center;
+    padding: 150px;
+    background-image:url("Media/film/file1/skills.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/*Software Profeciency*/
+section.software{
+    text-align: center;
+    padding:150px;
+    background-image:url("Media/film/file2/software.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bar{
+    width:50%;
+    background-color:grey;
+    border-radius: 15px 50px 30px 5px;
+}
+.skills{
+    padding:10px;
+}
+.office{
+    width:90%; background-color:#95AFA7 ;border-radius: 15px 50px 30px 5px;
+}
+.ai{
+    width:95%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+}
+.ps{
+    width:80%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+}
+.pp{
+    width:50%; background-color:#95AFA7;border-radius: 15px 50px 30px 5px;
+}
+.html{
+    width:70%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+}
+
+/*Work Experience*/
+section.work{
+    text-align:center;
+    padding: 150px;
+    background-image:url("Media/film/work.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    justify-content: center;
 }
 /*footer*/
 footer{

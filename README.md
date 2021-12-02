@@ -15,3 +15,30 @@ As a site creator, my main goal is to showcase myself in a way that recruiters w
 *include wireframes* 
 # Features
 
+Homepage: 
+
+*Header* 
+In the header, i have included 5 attributes; Homepage, Photography page, Contact Me page as well as linked my LinkedIn and Instagram handles on the furthest left of the header. 
+
+*Video Introductory* 
+Right under the header, i added a simple animated video which basiclally introduces users to my website and gives users an overall idea of the overall vibe of my website. 
+
+*About Me section* 
+In the about me section, i have stated a brief introduction to myself. I have also included a button at the end of the section which allows users to download my resume. 
+
+*Education* 
+In this section, i stated my education background, showing the academic qualifications i have. 
+
+*Hobbies* 
+In this section, i stated all my hobbies and at the bottom of the section i have included a photography slideshow to showcase some of the photos that i have taken and give them a gist of the photography page which i have also linked in a button below the slideshow. 
+
+*Achievements* 
+In this section, I stated all my past achivements. 
+
+*Skills* 
+In this section , i have included the skills that I have learnt and my confidence levels in these skills that i possess 
+
+*Work experience* 
+In this section i have inluded the past and present work experience that i have went through. 
+
+
