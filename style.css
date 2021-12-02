@@ -1,11 +1,11 @@
 /*Homepage*/
 *{
-    color: #f3f0ef;
     margin:0;
     padding:0;
     align-items: center;
     font-size: 25px;
     text-decoration: none;
+    color:#f3f0f3
     
 }
 header{
@@ -81,6 +81,7 @@ p{
     flex-flow:wrap;
     font-size: 25px;
     text-align: center;
+    color: #f3f0f3;
 }
 /*education section*/
 section.education{
@@ -163,7 +164,7 @@ section.hobbies{
     to {opacity:1}
 }
 
-section.hobbies a.button{
+.button{
     padding:10px 30px;
     margin:4px 2px;
     cursor: pointer;
@@ -173,15 +174,6 @@ section.hobbies a.button{
     text-align:center;
 }
 
-/*Achievements*/
-section.achievements{
-    text-align:center;
-    padding: 150px;
-    background-image:url("Media/25d5e93d-8753-4d7f-bcbf-001f35b44f52_edited.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-}
 
 /*Skills*/
 section.skills{
@@ -196,8 +188,8 @@ section.skills{
 /*Software Profeciency*/
 section.software{
     text-align: center;
-    padding:150px;
-    background-image:url("Media/film/file2/software.jpg");
+    padding: 150px;
+    background-image: url("Media/film/file2/software.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -206,35 +198,45 @@ section.software{
     width:50%;
     background-color:grey;
     border-radius: 15px 50px 30px 5px;
+    align-items: center;
 }
 .skills{
     padding:10px;
+    
 }
 .office{
-    width:90%; background-color:#95AFA7 ;border-radius: 15px 50px 30px 5px;
+    width:90%; background-color:#95AFA7 ;border-radius: 15px 50px 30px 15px;
 }
 .ai{
-    width:95%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+    width:90%; background-color: #95AFA7;border-radius: 15px 50px 30px 15px;
 }
 .ps{
-    width:80%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+    width:80%; background-color: #95AFA7;border-radius: 15px 50px 30px 15px;
 }
 .pp{
-    width:50%; background-color:#95AFA7;border-radius: 15px 50px 30px 5px;
+    width:50%; background-color:#95AFA7;border-radius: 15px 50px 30px 15px;
 }
 .html{
-    width:70%; background-color: #95AFA7;border-radius: 15px 50px 30px 5px;
+    width:70%; background-color: #95AFA7;border-radius: 15px 50px 30px 15px;
 }
 
 /*Work Experience*/
 section.work{
-    text-align:center;
-    padding: 150px;
-    background-image:url("Media/film/work.jpg");
+    text-align: center;
+    padding:150px;
+    background-image: url("Media/film/file2/work.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
-    justify-content: center;
+}
+section.work a.button{
+    padding: 10px 30px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    display: inline-block;
+    color:#222b1bea; 
+    background:#dad3d1;
+    text-align: center;
 }
 /*footer*/
 footer{
@@ -253,21 +255,57 @@ section.contact{
 }
 
 
-/*Photography page CSS*/
+/*Projects page CSS*/
+section.projects{
+    text-align: left;
+    background-image:url("Media/film/file2/projectsbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 140px;
+    margin-top: 20px;
+
+}
+.applogo{
+    display:flex;
+    flex-direction: row;
+}
+.applogo > applogodes{
+    padding:5px;
+}
+.infographic{
+    display: flex;
+    flex-direction: row;
+}
+.infographic > infodes{
+    padding:5px;
+}
+section.photos{
+    display:flex;
+    flex-direction: column;
+    background-image: url("Media/film/file2/photobg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding:5px;
+}
 .row{
-    display:flex; 
-    flex-wrap: wrap;
-    padding: 4px;
+    display:flex;
+    flex-wrap:wrap;
+    padding: 20px;
 }
 .column{
-    flex:25%;
-    max-width:25%;
-    padding:4px;
+    flex:40%;
+    max-width:40%;
+    padding: 5px;
+    margin: 30px;
+    margin-top: 0;
+    
 }
 .column img{
     vertical-align: middle;
-    width: 100%;
-    margin-top:4px;
+    width:100%;
+    margin-top:20px;
 }
 @media (max-width:576px){
     .column{
@@ -284,13 +322,25 @@ section.contact{
 
 /*form page*/
 section.form{
-    background-color: #dfcdc7;
+    display:flex;
+    background-color:#dfcdc7;
     padding:150px; 
     justify-content:center;
     text-align: center;
     color:#222b1bea;
-
-    
+    background-image:url("Media/film/file2/formsbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.button{
+    padding: 10px 30px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    display: inline-block;
+    background:#dad3d1;
+    color:#222b1bea;
+    text-align: center;
 }
 /*achievemets section*/
 section.achievements{
@@ -301,15 +351,7 @@ section.achievements{
     background-size:cover;
     background-attachment: fixed;
 }
-/*cca section*/
-section.cca{
-    text-align:center;
-    padding:150px; 
-    background-image:url("Media/IMG_7065_edited_edited.jpg");
-    background-repeat: no-repeat;
-    background-size:cover; 
-    background-attachment: fixed; 
-}
+
 /*photo page*/
 .row{
     display:flex;
