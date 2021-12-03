@@ -12,7 +12,8 @@ As a site user (recruiter), i would want to find out more about the applicant, t
 
 As a site creator, my main goal is to showcase myself in a way that recruiters would want to give me an opportunity at the job that i am applying for, thus by making this website to showcase more about who i am outside of the resume, it would hopefully give recruiters a better insight to me as a person. 
 
-*include wireframes* 
+Wireframe:
+Inside the same folder, I have also included the wireframe which contains the initial design process of this website
 # Features
 Homepage: 
 
@@ -62,11 +63,16 @@ I wish to add more interactive elements into the website such as icons that zoom
 # Technologies Used
 In this webste the languages used are:
 html, css and javascript. 
-*html link*
+HTML: 
+https://html.com/
 The html language was used to create the overall contents of the website
-*css link* 
+
+CSS:
+http://css.com/
 The CSS codes were used to stylize the website by determining the fonts, colors and layouts used in the overall website
-*java script*
+
+JavaScript:
+https://www.javascript.com/
 The Javascript codes were used to make the website more interctive by adding the slideshow element to the homepage. 
 
 # Testing 
@@ -110,3 +116,4 @@ The images, videos used in this website were taken and edited by me.
 
 # Acknowledgements
 I received inspriation for this project from W3 Schools 
+I learnt to make the slideshow under the hobbies section from this link: https://www.youtube.com/watch?v=gor5BvT2z88&t=807s
