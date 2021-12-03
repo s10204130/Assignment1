@@ -105,7 +105,6 @@ The Javascript codes were used to make the website more interctive by adding the
     - Click on the back to top link at the bottom of the page to see if it brings the user back to the top of the page. 
 
 # Credits 
-
 # Media
 The images, videos used in this website were taken and edited by me. 
 
