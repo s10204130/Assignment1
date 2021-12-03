@@ -14,19 +14,10 @@ As a site creator, my main goal is to showcase myself in a way that recruiters w
 
 *include wireframes* 
 # Features
-<<<<<<< HEAD
-
-# Existing Features
-Homepage: 
-
-*Header* 
-In the header, i have included 5 attributes; Homepage, Photography page, Contact Me page as well as linked my LinkedIn and Instagram handles on the furthest left of the header. To help the user easily find their way around the website. 
-=======
 Homepage: 
 
 *Header* 
 In the header, i have included 5 attributes; Homepage, Photography page, Contact Me page as well as linked my LinkedIn and Instagram handles on the furthest left of the header. 
->>>>>>> 5132147f6a74a9e60ce54bdfb142339350ccef51
 
 *Video Introductory* 
 Right under the header, i added a simple animated video which basiclally introduces users to my website and gives users an overall idea of the overall vibe of my website. 
@@ -66,32 +57,57 @@ Footer:
 The footer contains both my school and personal email address for users who wish to contact me directly via email, it also includes links to my LinkedIn and Instagram, similar to the header. Lastly, it also contains a "Back To Top" link which brings you back to the top of the page. 
 
 # Features to implement
+I wish to add more interactive elements into the website such as icons that zoom when hovering over them, or navigated featues in the navigation bar. 
 
 # Technologies Used
 In this webste the languages used are:
 html, css and javascript. 
+*html link*
+The html language was used to create the overall contents of the website
+*css link* 
+The CSS codes were used to stylize the website by determining the fonts, colors and layouts used in the overall website
+*java script*
+The Javascript codes were used to make the website more interctive by adding the slideshow element to the homepage. 
 
+# Testing 
+1. Header Links 
+- I tried to click on all the links placed in the header to ensure that it brought me to the desired social media platform and to ensue that the navigation bar was working so as to properly navigate around my website with ease. 
 
+2. Button in About Me section
+- Go to home page and scroll to the about me section 
+- try clicking on the button to see if it brings me to the contact me page 
+
+3.Slideshow in the Hobbies section 
+- Go to homepage and scroll to the hobbies section 
+- Test out the slideshow by clicking on the next and previous controls to see if the controls actually work and that the pictures appear smoothly 
+
+4. The button linked to the projects page in the Hobbies section 
+- Go to home page and scroll to the hobbies section 
+- Test out the button by clicking on the button to see if it brings the user to the projects page 
+
+5. Resume Button 
+- Go to home page and scroll down to the work experience section
+- Test to see if the button works by clicking on the button and see if the link brings the user to a word document containing my resume. 
+
+6. Contact Me form
+- Go to the contact me page 
+- Fill in all the prompts such as name, email, and the message
+- Click the submit button to submit 
+- When the submit button is clicked, ensure that it works by making sure that the website brings the user to the email page where they are able to send the message directly to the reciever's email from the sender's default email. 
+
+7.Footer 
+- Go to the end of every page and scroll to the footer section 
+- To ensure that all the email links are working,
+    - click on both the email addresses and ensure that the user is brought to the email page where they can send an email to me 
+-To ensure that the social media icons are correctly linked to each of the platforms 
+    - Click on both of the social media icons and ensure that the user is brought directly to the social media platforms and to my account
+-Ensure that the "back to top" link is working 
+    - Click on the back to top link at the bottom of the page to see if it brings the user back to the top of the page. 
+
+# Credits 
 
 # Media
 The images, videos used in this website were taken and edited by me. 
 
 # Acknowledgements
-=======
-In the about me section, i have stated a brief introduction to myself. I have also included a button at the end of the section which allows users to download my resume. 
-
-*Education* 
-In this section, i stated my education background, showing the academic qualifications i have. 
-
-*Hobbies* 
-In this section, i stated all my hobbies and at the bottom of the section i have included a photography slideshow to showcase some of the photos that i have taken and give them a gist of the photography page which i have also linked in a button below the slideshow. 
-
-*Achievements* 
-In this section, I stated all my past achivements. 
-
-*Skills* 
-In this section =, i have included the skills that I have learnt and my confidence levels in these skills that i possess 
-
-* Work experience* 
-In this section i have inluded the past and present work experience that i have went through. 
->>>>>>> 5132147f6a74a9e60ce54bdfb142339350ccef51
+I received inspriation for this project from W3 Schools 

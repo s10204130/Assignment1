@@ -8,6 +8,12 @@
     color:#f3f0f3
     
 }
+button{
+    font-family: inherit;
+}
+.button{
+    font-family: inherit;
+}
 header{
     background-color:#e7e0cf;
 }
@@ -104,77 +110,67 @@ section.hobbies{
     background-size:cover;
     background-attachment: fixed;
 }
-.photos{
-    display:none; 
-}
 .slideshow-container{
+    overflow:hidden ;
+    max-width: 600px;
+    position: relative;
+    display: block;
+    left: 25%;
+}
+.slideshow-container .item,
+.slideshow-container .item-hidden{
+    display:none;
+}
+.slideshow-container .item img{
+    max-width: 600px;;
+    width:100%;
+    height:auto;
+}
+.slideshow-container .item-show{
     display:block;
-    max-width:50%;
-    position:relative;
-    margin:auto;
-    box-sizing: border-box;
+    animation: fadeVisibility 0.5s; 
 }
-.prev,.next{
-    cursor: pointer;
-    position:absolute;
+.slideshow-container .actions{
+    display:flex;
+    width:100%;
+    height:auto;
+    justify-content: space-between;
+    position: absolute;
     top:50%;
-    width:auto;
-    padding:16px;
-    margin-top:-22px;
-    transition:0.6s ease;
-    border-radius:0 3px 3px 0;
-    user-select: none;
-}
-.prev{
-    left:0;
-    border-radius:0 3px 3px 0;
-}
-.next{
-    right:0;
-    border-radius: 0 3px 3px 0;
-}
-.prev:hover, .next:hover{
-    background-color: #dfcdc7;
-}
-.dot{
-    cursor:pointer;
-    height:15px;
-    width:15px;
-    margin:0 2px;
-    background-color:#dfcdc7;
-    border-radius:50%;
-    display:inline-block;
-    transition:background-color 0.6s ease;
-}
-.active,.dothover{
-    background-color:#dfcdc7
-}
-.fade{
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@-webkit-keyframes fade{
-    from{opacity:.4}
-    to {opacity:1}
-}
-@keyframes fade{
-    from {opacity:.4}
-    to {opacity:1}
+    transform:translateY(-50%); 
+    color:#222b1bea;
 }
 
-.button{
-    padding:10px 30px;
-    margin:4px 2px;
+#prev{
+    padding:10px 20px;
+    margin:2px 1px;
     cursor: pointer;
     display:inline-block;
     color:#222b1bea;
-    background:#dad3d1;
     text-align:center;
+    transition: 0.6s ease;
 }
-
-
+#next{
+    padding:10px 20px;
+    margin:2px 1px;
+    cursor: pointer;
+    display:inline-block;
+    color:#222b1bea;
+    text-align:center;
+    transition: 0.6s ease;
+}
+#prev:hover, #next:hover{
+    background-color: #e7e0cf
+}
+@keyframes fadeVisibility{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+        transform:opacity linear;
+    }
+}
 /*Skills*/
 section.skills{
     text-align: center;
@@ -193,7 +189,9 @@ section.software{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    align-content: center;
 }
+
 .bar{
     width:50%;
     background-color:grey;
@@ -205,7 +203,7 @@ section.software{
     
 }
 .office{
-    width:90%; background-color:#95AFA7 ;border-radius: 15px 50px 30px 15px;
+    width:90%; background-color:#95AFA7 ;border-radius: 15px 50px 30px 15px; right: 20%;
 }
 .ai{
     width:90%; background-color: #95AFA7;border-radius: 15px 50px 30px 15px;
@@ -280,6 +278,21 @@ section.projects{
 .infographic > infodes{
     padding:5px;
 }
+.board{
+    display:flex;
+    flex-direction:row; 
+}
+.board > boarddes{
+    padding: 5px; 
+}
+.cards{
+    display: flex; 
+    flex-direction: row;
+}
+.cards > carddes{
+    padding: 5px;
+}
+
 section.photos{
     display:flex;
     flex-direction: column;
@@ -380,3 +393,6 @@ section.achievements{
     }
 }
 */
+input.text{
+    color:#222b1bea
+}
