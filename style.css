@@ -168,7 +168,7 @@ section.hobbies{
     }
     100%{
         opacity:1;
-        transform:opacity linear;
+        transform:linear;
     }
 }
 /*Skills*/
